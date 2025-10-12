@@ -4,8 +4,13 @@ import { Component } from '@angular/core';
   selector: 'app-card',
   standalone: false,
   templateUrl: './card.html',
-  styleUrl: './card.scss'
+  styleUrl: './card.scss',
 })
 export class Card {
-
+  plano = {
+    infos: {
+      tipo: 'Teste',
+      preco: 1000,
+    },
+  };
 }
